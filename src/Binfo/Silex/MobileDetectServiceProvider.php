@@ -11,21 +11,15 @@
 
 namespace Binfo\Silex;
 
-use Silex\Application;
-use Silex\ServiceProviderInterface;
+use Pimple\Container;
+use Pimple\ServiceProviderInterface;
 
 class MobileDetectServiceProvider implements ServiceProviderInterface
 {
-
-    public function register(Application $app)
+    public function register(Container $container)
     {
-        $app['mobile_detect'] = $app->share(function() {
+        $container['mobile_detect'] = function($c) {
             return new \Mobile_Detect();
-        });
-    }
-
-    public function boot(Application $app)
-    {
-
+        };
     }
 }
