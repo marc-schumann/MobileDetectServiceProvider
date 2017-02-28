@@ -1,14 +1,20 @@
 {
-    "name": "jbinfo/mobile-detect-service-provider",
+    "name": "marcschumann/mobile-detect-service-provider",
     "description": "A mobile detect ServiceProvider for Silex, based on Mobile-Detect library.",
     "keywords": ["silex", "mobile", "mobile detect", "php mobile detect"],
-    "homepage": "https://github.com/jbinfo/MobileDetectServiceProvider",
+    "homepage": "https://github.com/marcschumann/MobileDetectServiceProvider",
     "license": "MIT",
     "authors": [
         {
             "name": "Lhassan Baazzi",
             "email": "baazzilhassan@gmail.com",
             "homepage": "http://jbinfo.io/",
+            "role": "Developer"
+        },
+        {
+            "name": "Marc Schumann",
+            "email": "marc.andre.schumann@gmail.com",
+            "homepage": "http://marcs.zone/",
             "role": "Developer"
         }
     ],
